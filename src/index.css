@@ -1,0 +1,117 @@
+:root {
+  --primary-color: #4D774E;
+  --secondary-color: white;
+  --primary-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  --secondary-shadow: rgba(0, 0, 0, 0.35) 0px 1px 3px
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App {
+  margin: 0 auto;
+  width: 350px;
+}
+
+.choose-country form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.choose-country input {
+  width: 240px;
+  height: 35px;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: var(--primary-shadow);
+  border: none;
+  outline: none;
+  transition: 0.3s linear;
+}
+
+.choose-country input:hover {
+  box-shadow: var(--secondary-shadow);
+}
+
+.choose-country button {
+  width: 80px;
+  padding: 5px;
+  font-size: 20px;
+  height: 55px;
+  background: var(--primary-color);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  box-shadow: var(--primary-shadow);
+  transition: 0.3s linear;
+}
+
+.choose-country button:hover {
+  box-shadow: var(--secondary-shadow);
+  cursor: pointer;
+}
+
+.current-city {
+  margin-top: 20px;
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.current-city span {
+  font-size: 20px;
+}
+
+.weather-day {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: var(--primary-shadow);
+  transition: 0.3s linear;
+}
+
+.weather-day:hover {
+  box-shadow: var(--secondary-shadow);
+  cursor: pointer;
+}
+
+.weather-day h3 {
+  color: var(--primary-color)
+} 
+
+.day-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.weather-summary {
+  padding: 10px;
+  margin-top: 40px;
+  border-radius: 5px;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+.summary-info {
+  display: block;
+}
+
+.summary-info p{
+  font-size: 18px;
+}

@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<WeatherList /> test empty array 1`] = `ShallowWrapper {}`;
+
+exports[`<WeatherList /> test weather list with data 1`] = `ShallowWrapper {}`;

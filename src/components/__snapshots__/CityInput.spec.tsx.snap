@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CityInput /> should handle onSubmit handler 1`] = `ShallowWrapper {}`;
+
+exports[`<CityInput /> should test CityInput component 1`] = `ShallowWrapper {}`;

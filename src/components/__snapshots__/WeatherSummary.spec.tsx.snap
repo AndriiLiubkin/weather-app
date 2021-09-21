@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<WeatherSummary /> test empty weather summary 1`] = `ShallowWrapper {}`;
+
+exports[`<WeatherSummary /> test weather summary 1`] = `ShallowWrapper {}`;
+
+exports[`<WeatherSummary /> test weather summary 2`] = `ShallowWrapper {}`;
